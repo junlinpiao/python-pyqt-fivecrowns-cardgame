@@ -1,0 +1,106 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'coin_toss.ui'
+#
+# Created by: PyQt5 UI code generator 5.14.1
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_CoinToss(object):
+    def setupUi(self, CoinToss):
+        CoinToss.setObjectName("CoinToss")
+        CoinToss.resize(365, 331)
+        self.verticalLayout = QtWidgets.QVBoxLayout(CoinToss)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem)
+        self.label = QtWidgets.QLabel(CoinToss)
+        self.label.setStyleSheet("font-size: 15px")
+        self.label.setScaledContents(True)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setWordWrap(True)
+        self.label.setObjectName("label")
+        self.horizontalLayout.addWidget(self.label)
+        spacerItem1 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem1)
+        self.horizontalLayout.setStretch(0, 1)
+        self.horizontalLayout.setStretch(1, 10)
+        self.horizontalLayout.setStretch(2, 1)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+        self.horizontalLayout_4 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_4.setObjectName("horizontalLayout_4")
+        spacerItem2 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_4.addItem(spacerItem2)
+        self.lbl_toss_result = QtWidgets.QLabel(CoinToss)
+        self.lbl_toss_result.setStyleSheet("font-size: 15px")
+        self.lbl_toss_result.setText("")
+        self.lbl_toss_result.setScaledContents(True)
+        self.lbl_toss_result.setAlignment(QtCore.Qt.AlignCenter)
+        self.lbl_toss_result.setWordWrap(True)
+        self.lbl_toss_result.setObjectName("lbl_toss_result")
+        self.horizontalLayout_4.addWidget(self.lbl_toss_result)
+        spacerItem3 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_4.addItem(spacerItem3)
+        self.horizontalLayout_4.setStretch(0, 1)
+        self.horizontalLayout_4.setStretch(1, 10)
+        self.horizontalLayout_4.setStretch(2, 1)
+        self.verticalLayout.addLayout(self.horizontalLayout_4)
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        spacerItem4 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_2.addItem(spacerItem4)
+        self.btn_coin_toss = QtWidgets.QPushButton(CoinToss)
+        self.btn_coin_toss.setMinimumSize(QtCore.QSize(0, 50))
+        self.btn_coin_toss.setStyleSheet("font-size: 20px")
+        self.btn_coin_toss.setObjectName("btn_coin_toss")
+        self.horizontalLayout_2.addWidget(self.btn_coin_toss)
+        spacerItem5 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_2.addItem(spacerItem5)
+        self.btn_back = QtWidgets.QPushButton(CoinToss)
+        self.btn_back.setMinimumSize(QtCore.QSize(0, 50))
+        self.btn_back.setStyleSheet("")
+        self.btn_back.setObjectName("btn_back")
+        self.horizontalLayout_2.addWidget(self.btn_back)
+        spacerItem6 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_2.addItem(spacerItem6)
+        self.horizontalLayout_2.setStretch(1, 5)
+        self.horizontalLayout_2.setStretch(3, 3)
+        self.verticalLayout.addLayout(self.horizontalLayout_2)
+        self.horizontalLayout_3 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_3.setObjectName("horizontalLayout_3")
+        spacerItem7 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_3.addItem(spacerItem7)
+        self.btn_start = QtWidgets.QPushButton(CoinToss)
+        self.btn_start.setMinimumSize(QtCore.QSize(0, 60))
+        self.btn_start.setStyleSheet("font-size: 20px")
+        self.btn_start.setObjectName("btn_start")
+        self.horizontalLayout_3.addWidget(self.btn_start)
+        spacerItem8 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_3.addItem(spacerItem8)
+        self.horizontalLayout_3.setStretch(0, 1)
+        self.horizontalLayout_3.setStretch(1, 4)
+        self.horizontalLayout_3.setStretch(2, 1)
+        self.verticalLayout.addLayout(self.horizontalLayout_3)
+        self.verticalLayout.setStretch(0, 6)
+        self.verticalLayout.setStretch(1, 6)
+        self.verticalLayout.setStretch(2, 4)
+        self.verticalLayout.setStretch(3, 5)
+
+        self.retranslateUi(CoinToss)
+        QtCore.QMetaObject.connectSlotsByName(CoinToss)
+
+    def retranslateUi(self, CoinToss):
+        _translate = QtCore.QCoreApplication.translate
+        CoinToss.setWindowTitle(_translate("CoinToss", "Form"))
+        self.label.setText(_translate("CoinToss", "Try Coin Toss to decide which player to play first!\n"
+"\n"
+"Good Luck!"))
+        self.btn_coin_toss.setText(_translate("CoinToss", "Coin Toss"))
+        self.btn_back.setText(_translate("CoinToss", "Back to Main Menu"))
+        self.btn_start.setText(_translate("CoinToss", "Play Now!"))
